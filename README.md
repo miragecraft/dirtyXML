@@ -30,23 +30,23 @@ XML parsing and manipulation using Regex - get dirty and feel dirty.
       <td>
         <ul>
           <li>Handles nested elements with the same name poorly</li>
-          <li>Ignores namespace, which could be viewed as a feature</li>
-          <li>Ignores attributes (for now, may add in the future), however will leave them in place</li>
+          <li>Ignores namespace and leave in place, also a feature</li>
+          <li>Ignores attributes and leave in place *</li>
         </ul>
       </td>
-      <tr>
-  </tbody>
-  </table>
+    <tr>
+</tbody>
+</table>
+  
+\* Currently for what I use this for, I don't need to manipulate or read attributes so they are not supported, if I need it later I'll add it in.
 
 ## XML Manipulation
 
-XML manipulation using `XM()` function.
+XML manipulation using `XM()` function, you can optionally supply it with a `string`, or start with a blank slate.
 
 Either invoke it directly as `XM(string)`, or create a new instance `let data = new XM(string)`.
 
-Of course, you will need to access its methods in order to manipulate and retrieve data.
-
-All methods can be chained except those that returns a string.
+Access its methods to manipulate and retrieve data (chainable except those that returns a string).
 
 | Method | Description |
 | --- | --- |
