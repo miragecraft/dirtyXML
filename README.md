@@ -1,4 +1,4 @@
-# dirtyXML
+# dirtyXML.js
 
 XML parsing and manipulation using Regex - get dirty and feel dirty.
 
