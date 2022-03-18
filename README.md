@@ -25,6 +25,7 @@ XML parsing and manipulation using Regex - get dirty and feel dirty.
           <li>API request and response (simple and predictable structures)</li>
           <li>XML export from business applications (often poorly coded and unsanitized)</li>
           <li>Where the power of a proper parser is not needed and a lightweight solution is preferred</li>
+          <li>One off parsing of XML data where speed and simplicity trumps all</li> 
         </ul>
       </td>
       <td>
