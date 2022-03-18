@@ -1,6 +1,6 @@
 # dirtyXML.js
 
-XML parsing and manipulation using Regex - get dirty and feel dirty.
+XML parsing and manipulation in JavaScript using Regex - get dirty and feel dirty.
 
 <table>
   <thead>
