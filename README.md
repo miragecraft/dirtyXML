@@ -16,7 +16,7 @@ XML parsing and manipulation using Regex - get dirty and feel dirty.
       <td>
         <ul>
           <li>Less code, more clarity to perform simple manipulation and data retrieval</li>
-          <li>Able to work directly with unsanitized ("dirty") XML, or XML data that triggers parsing error in a proper XML parser</li>
+          <li>Able to work directly with unsanitized ("dirty") XML, which would require painstaking cleanup if a proper XML parser is used instead</li>
           <li>Doesn't need to deal with namespacing, when it's not relevant to the task at hand</li>
         </ul>
       </td>
