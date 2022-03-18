@@ -57,7 +57,7 @@ Access its methods to manipulate and retrieve data (chainable except those that 
 | `append(element, string)` | Insert string into element, at the end |
 | `before(element, string)` |  Insert string before element |
 | `after(element, string)` |  Insert string after element |
-| `remove(...element)` | Remove element(s), accept multiple arguments to remove multiple elements at once |
+| `remove(...element)` | Remove element(s), accept multiple element names as arguments |
 | `empty(element)` | Empty element, remove all content |
 | `get(element)` | Return content of first element as string, cannot be chained |
 | `getAll(element)` | Return content of all elements as array of strings, cannot be chained |
