@@ -2,44 +2,25 @@
 
 XML querying and manipulation in JavaScript using Regex - get dirty and feel dirty.
 
-<table>
-  <thead>
-  <tr>
-    <th>Why</th>
-      <th>When</th>
-    <th>Limitation</th>
+#### Why
 
-  </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <ul>
-          <li>Less code, more clarity to perform simple manipulation and data retrieval</li>
-          <li>Able to work directly with unsanitized ("dirty") XML, which would require painstaking cleanup if a proper XML parser is used instead</li>
-          <li>Doesn't need to deal with namespacing, when it's not relevant to the task at hand</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>API request and response (simple and predictable structures)</li>
-          <li>XML export from business applications (often poorly coded and unsanitized)</li>
-          <li>Where the power of a proper parser is not needed and a lightweight solution is preferred</li>
-          <li>One off parsing of XML data where speed and simplicity trumps all</li> 
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>Can't handle nested elements with the same name (will pick the first end tag)</li>
-          <li>Ignores namespace and leave in place, also a feature</li>
-          <li>Ignores attributes and leave in place *</li>
-        </ul>
-      </td>
-    <tr>
-</tbody>
-</table>
-  
-\* Currently for what I use this for, I don't need to manipulate or read attributes so they are not supported, if I need it later I'll add it in.
+- Less code, more clarity to perform simple manipulation and data retrieval
+- Able to work directly with unsanitized ("dirty") XML, which would require painstaking cleanup if a proper XML parser is used instead
+- Doesn't need to deal with namespacing, when it's not relevant to the task at hand
+
+#### When
+
+- API request and response (simple and predictable structures)
+- XML export from business applications (often poorly coded and unsanitized)
+- Where the power of a proper parser is not needed and a lightweight solution is preferred
+- One off parsing of XML data where speed and simplicity trumps all
+
+#### Limitation
+
+- Can't handle nested elements with the same name (will pick the first end tag)
+- Ignores namespace and leave in place, also a feature
+- Ignores attributes and leave in place
+  - Right now I don't need to manipulate or read attributes so they are not supported, I may add it later
 
 ## XML Querying and Manipulation
 
@@ -159,4 +140,4 @@ X({
 */
 ```
 
-Use this power responsibly and have fun.
+Have fun, and don't forget that now you have two problems.
