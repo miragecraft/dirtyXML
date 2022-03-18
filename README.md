@@ -30,7 +30,7 @@ XML querying and manipulation in JavaScript using Regex - get dirty and feel dir
       </td>
       <td>
         <ul>
-          <li>Handles nested elements with the same name poorly</li>
+          <li>Can't handle nested elements with the same name (will pick the first end tag)</li>
           <li>Ignores namespace and leave in place, also a feature</li>
           <li>Ignores attributes and leave in place *</li>
         </ul>
