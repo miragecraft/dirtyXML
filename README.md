@@ -41,11 +41,11 @@ XML querying and manipulation in JavaScript using Regex - get dirty and feel dir
   
 \* Currently for what I use this for, I don't need to manipulate or read attributes so they are not supported, if I need it later I'll add it in.
 
-## XML Manipulation
+## XML Querying and Manipulation
 
-XML manipulation using `XM()` function, you can optionally supply it with a `string`, or start with a blank slate.
+Initialize with `XM()` function, you can optionally supply it with a `string`, or start with a blank slate.
 
-Either invoke it directly as `XM(string)`, or create a new instance `let data = new XM(string)`.
+Either invoke it directly as `XM(string)`, or create save it to an oject as a new instance: `let data = new XM(string)`.
 
 Access its methods to manipulate and retrieve data (chainable except those that returns a string).
 
