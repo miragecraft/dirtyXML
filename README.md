@@ -23,7 +23,7 @@ XML parsing and manipulation using Regex - get dirty and feel dirty.
       <td>
         <ul>
           <li>API request and response (simple and predictable structures)</li>
-          <li>XML export from business applications (often poorly coded and trigger error with proper XML parsers)</li>
+          <li>XML export from business applications (often poorly coded and unsanitized)</li>
           <li>Where the power of a proper parser is not needed and a lightweight solution is preferred</li>
         </ul>
       </td>
